@@ -1,23 +1,33 @@
-
-
 ![](https://raw.githubusercontent.com/qiubaiying/qiubaiying.github.io/master/img/readme-home.png)
 
 [![Build Status](https://travis-ci.org/qiubaiying/qiubaiying.github.io.svg?branch=master)](https://travis-ci.org/qiubaiying/qiubaiying.github.io)
 [![codebeat badge](https://codebeat.co/badges/5f031df3-f6c1-4ec0-911a-ff6617ca50b9)](https://codebeat.co/projects/github-com-qiubaiying-qiubaiying-github-io-master)
 [![GitHub issues](https://img.shields.io/github/issues/qiubaiying/qiubaiying.github.io.svg?style=flat)](https://github.com/qiubaiying/qiubaiying.github.io/issues)
 [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/home-assistant/home-assistant-iOS/blob/master/LICENSE)
-[![](https://img.shields.io/github/stars/qiubaiying/qiubaiying.github.io.svg?style=social&label=Star)](https://github.com/qiubaiying/qiubaiying.github.io)
-[![](https://img.shields.io/github/forks/qiubaiying/qiubaiying.github.io.svg?style=social&label=Fork)](https://github.com/qiubaiying/qiubaiying.github.io)
+[![](https://img.shields.io/github/stars/ZXLyyds100/ZXLyyds100.github.io.svg?style=social&label=Star)](https://github.com/ZXLyyds100/ZXLyyds100.github.io)
+[![](https://img.shields.io/github/forks/ZXLyyds100/ZXLyyds100.github.io.svg?style=social&label=Fork)](https://github.com/ZXLyyds100/ZXLyyds100.github.io)
 
+# ZXL的个人博客
 
-博客的搭建教程修改自 [Hux](https://github.com/Huxpro/huxpro.github.io) 
+博客的搭建教程修改自 [Hux](https://github.com/Huxpro/huxpro.github.io) 和 [qiubaiying](https://github.com/qiubaiying/qiubaiying.github.io)
  
-更为详细的教程戳这 [《利用 GitHub Pages 快速搭建个人博客》](http://www.jianshu.com/p/e68fba58f75c) 或 [wiki](https://github.com/qiubaiying/qiubaiying.github.io/wiki/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B)
+更为详细的教程戳这 [《利用 GitHub Pages 快速搭建个人博客》](http://www.jianshu.com/p/e68fba58f75c)
 
 >
-### [查看博客戳这里 👆](http://qiubaiying.github.io)
+### [查看博客戳这里 👆](https://ZXLyyds100.github.io)
 
+## 关于我
 
+Hi，我是ZXL，华南农业大学软件工程专业的学生，热爱技术分享和知识总结。
+
+### 技能栈
+- **后端开发**: Java, Spring, SpringBoot, SpringCloud
+- **数据库**: MySQL, Redis
+- **其他**: 持续学习中...
+
+### 联系方式
+- 📧 邮箱: ZXL2024903531@outlook.com
+- 🐙 GitHub: [@ZXLyyds100](https://github.com/ZXLyyds100)
 
 ## 使用
 
@@ -49,17 +59,17 @@
 
 ### 开始
 
-你可以通用修改 `_config.yml`文件来轻松的开始搭建自己的博客:
+你可以通过修改 `_config.yml`文件来轻松的开始搭建自己的博客:
 
 ```
 # Site settings
-title: BY Blog                    # 你的博客网站标题
-SEOTitle: 柏荧的博客 | BY Blog		# SEO 标题
-description: "Hey"	   	   # 随便说点，描述一下
+title: ZXL Blog                    # 你的博客网站标题
+SEOTitle: ZXL的博客 | ZXL Blog		# SEO 标题
+description: "Hi，我是ZXL"	   	   # 随便说点，描述一下
 
 # SNS settings      
-github_username: qiubaiying     # 你的github账号
-jianshu_username: e71990ada2fd  # 你的简书ID。
+github_username: ZXLyyds100     # 你的github账号
+email: ZXL2024903531@outlook.com  # 你的邮箱
 
 # Build settings
 # paginate: 10              # 一页你准备放几篇文章
@@ -131,16 +141,9 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
 
 	# SNS settings
 	RSS: false
-	jianshu_username: 	jianshu_id 
-	zhihu_username:     username
-	facebook_username:  username
-	github_username:    username
-	# weibo_username:   username
+	github_username:    ZXLyyds100
+	email: ZXL2024903531@outlook.com
 	
-	
-
-![](http://ww4.sinaimg.cn/large/006tKfTcgy1fgrgbgf77aj308i02v748.jpg)
-
 ### Friends
 
 好友链接部分。这会在全部页面显示。
@@ -151,12 +154,12 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
 # Friends
 friends: [
     {
-        title: "BY Blog",
-        href: "https://qiubaiying.github.io/"
+        title: "ZXL Blog",
+        href: "https://ZXLyyds100.github.io/"
     },
     {
-        title: "Apple",
-        href: "https://apple.com/"
+        title: "GitHub",
+        href: "https://github.com/ZXLyyds100"
     }
 ]
 ```
@@ -273,10 +276,10 @@ ga_domain: huangxuan.me			# 默认的是 auto, 这里我是自定义了的域名
 
 ## 致谢
 
-1. 这个模板是从这里 [Hux](https://github.com/Huxpro/huxpro.github.io) fork 的, 感谢这个作者。 
+1. 这个模板是从这里 [Hux](https://github.com/Huxpro/huxpro.github.io) 和 [qiubaiying](https://github.com/qiubaiying/qiubaiying.github.io) fork 的, 感谢这些作者。 
 2. 感谢 Jekyll、Github Pages 和 Bootstrap!
 
 ## License
 
-遵循 MIT 许可证。有关详细,请参阅 [LICENSE](https://github.com/qiubaiying/qiubaiying.github.io/blob/master/LICENSE)。
+本项目采用 MIT 协议开源。
 
