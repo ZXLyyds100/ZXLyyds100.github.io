@@ -1,114 +1,86 @@
 # Site settings
-title: ALiang Blog
-SEOTitle: 阿亮的博客 | ALiang Blog
+title: ZXL Blog
+SEOTitle: ZXL的博客 | ZXL Blog
 header-img: img/post-bg-desk.jpg
 email: ZXL2024903531@outlook.com
-description: "低头赶路，敬事如仪"
-keyword: "ALiang, ALiang Blog, 阿亮的博客, ZXLyyds10086, 郑鑫亮, iOS, Apple, iPhone"
-url: "http://ZXLyyds100.github.io"          # your host, for absolute URL
-baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/ZXLyyds100" # you code repository
+description: "Hi，我是SCAU的某位软件工程大学生，希望和大家分享我的个人知识总结！"
+keyword: "ZXL, ZXL Blog, ZXLyyds100, 郑鑫亮, Java, Spring, SpringBoot, SpringCloud, MySQL, Redis, 软件工程"
+url: "https://ZXLyyds100.github.io"
+baseurl: ""
+github_repo: "https://github.com/ZXLyyds100/ZXLyyds100.github.io"
 
 # Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
-
-
+sidebar: true
+sidebar-about-description: "Goals determine what you going to be! 🚀 分享技术，记录成长"
+sidebar-avatar: /img/about-BY-gentle.jpg
 
 # SNS settings
 RSS: false
-# weibo_username:     qiubaiying
-zhihu_username:     qiubaiying
-github_username:    qiubaiying
-facebook_username:  baiying.qiu.7
-jianshu_username:   e71990ada2fd
-#twitter_username:   qiubaiying
-
-
-
+github_username: ZXLyyds100
+# weibo_username: 
+# zhihu_username: 
+# facebook_username: 
+# jianshu_username: 
+# twitter_username: 
 
 # Build settings
-# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 permalink: pretty
 paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
-
-
+anchorjs: true
 
 # Gems
-# from PR#40, to support local preview for Jekyll 3.0
 gems: [jekyll-paginate]
 
-
-
-
 # Markdown settings
-# replace redcarpet to kramdown,
-# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
-# document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
 highlighter: rouge
 kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
-
-
+  input: GFM
 
 # 评论系统
-# Disqus（https://disqus.com/）
-# disqus_username: qiubaiying
+# Disqus
+# disqus_username: 
 
 # Gitalk
 gitalk:
-  enable: true    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: qiubaiying.github.io    #仓库名称
-  owner: qiubaiying    #github用户名
-  admin: qiubaiying
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
-
-
-# 统计
+  enable: true
+  clientID: f2c84e7629bb1446c1a4
+  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d
+  repo: ZXLyyds100.github.io
+  owner: ZXLyyds100
+  admin: ZXLyyds100
+  distractionFreeMode: true
 
 # Analytics settings
 # Baidu Analytics
 ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
-ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
-
-
-
-
+ga_track_id: 'UA-90855596-1'
+ga_domain: auto
 
 # Featured Tags
-featured-tags: true                     # 是否使用首页标签
-featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
-
-
+featured-tags: true
+featured-condition-size: 1
 
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
 service-worker: true
 
-
-
 # Friends
 friends: [
     {
-        title: "WY",
-        href: "http://zhengwuyang.com"
+        title: "GitHub",
+        href: "https://github.com/ZXLyyds100"
     },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
+        title: "Spring官网",
+        href: "https://spring.io"
     },{
-        title: "Apple",
-        href: "https://apple.com"
+        title: "Java官网",
+        href: "https://www.oracle.com/java/"
     },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
+        title: "华南农业大学",
+        href: "https://www.scau.edu.cn"
     }
 ]
